@@ -1,0 +1,264 @@
+<!-- npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bg-red-100">
+    <script src="portfolio.js"></script>
+    <nav class="nav justify-between bg-red-300 flex p-6">
+        <span class="ms-4 cursor-progress animate-pulse hover:animate-bounce font-serif font-semibold text-4xl">K<span
+                class="font-sans text-slate-500">austubh</span></span>
+        <ul class="list-none text-lg flex space-x-12 mx-9">
+            <li
+                class="hover:uppercase cursor-pointer hover:text-xl  hover:shadow-lg hover:bg-red-500 hover:rounded-lg hover:p-1 font-semibold ">
+                Home</li>
+            <li
+                class="hover:uppercase cursor-pointer hover:text-xl  hover:shadow-lg hover:bg-red-500 hover:rounded-lg hover:p-1 font-semibold ">
+                About Me</li>
+            <li
+                class="hover:uppercase cursor-pointer hover:text-xl  hover:shadow-lg hover:bg-red-500 hover:rounded-lg hover:p-1 font-semibold ">
+                Skills</li>
+            <li
+                class="hover:uppercase cursor-pointer hover:text-xl  hover:shadow-lg hover:bg-red-500 hover:rounded-lg hover:p-1 font-semibold ">
+                Projects</li>
+            <li
+                class="hover:uppercase cursor-pointer hover:text-xl  hover:shadow-lg hover:bg-red-500 hover:rounded-lg hover:p-1 font-semibold ">
+                Contact</li>
+        </ul>
+    </nav>
+    <main class="font-serif mt-16 flex flex-row gap-16 p-16">
+        <div class="basis-2/3 pl-16">
+            <div class="mt-16 pt-10">
+                <span class="font-semibold text-xl">Hello, It's me </span><br><span
+                    class="font-bold text-5xl hover:animate-pulse cursor-progress">Kaustubh Dev Rai</span>
+                <br><span class="font-semibold text-xl">And I'm a <span class="font-bold text-3xl text-red-500">Frontend
+                        Developer</span></span>
+            </div>
+            <div>
+                A engineering student who passionate towards learning.
+            </div>
+            <button class="bg-red-400 hover:bg-slate-400 hover:animate-bounce rounded-lg pt-1 pb-2 ps-2 pe-2 mt-5">
+                <a class="font-semibold" href="home.png" download="">Download CV</a>
+            </button>
+        </div>
+        <div class="basis-1/3 h-36 w-max relative mt-9 ms-16">
+            <!-- <img class="block  h-16 w-16 top-0 left-0 bg-cover" src="blob.svg" alt=""> -->
+            <div
+                class="shadow-2xl shadow-teal-500 hover:animate-pulse border-4 block bg-gradient-to-b from-violet-400 h-80 bg-blue-200 w-80 animate-none">
+            </div>
+            <img class="absolute rounded-ss-3xl rounded-ee-3xl animate-none  top-11 left-16  h-60 w-48"
+                src="IMG20220525174706__2_-removebg-preview (1).png" alt="">
+        </div>
+    </main>
+    <button onclick="topfunction()" class="right-16 mybtn fixed border-none outline-none" title="Go to top">
+        <img src="arrow.png" class="h-10 w-10" alt="top">
+    </button>
+    <!-- about me -->
+    <section class="bg-orange-200 mt-24 ps-16 pt-16 pr-20 pb-28 flex justify-between">
+        <div class="basis-1/3 h-36 w-max relative mt-9 ms-36">
+            <div
+                class="shadow-2xl rounded-full shadow-teal-500 hover:animate-pulse border-4 block bg-gradient-to-b from-violet-400 h-80 bg-blue-200 w-80 animate-none">
+            </div>
+            <img class="rounded-full absolute shadow-blue-500 shadow-2xl animate-none  top-11 left-16  h-60 w-48"
+                src="IMG20220525174706__2_-removebg-preview (1).png" alt="">
+        </div>
+        <div
+            class=" text-black-500 shadow-inner rounded-lg shadow-gray-500 me-16 pe-14 ps-14 h-max w-1/3 ms-16 pt-12 pb-12 font-serif">
+            I'm <b>Kaustubh Dev Rai</b>& I'm from Gorakhpur. I am currently pursuing B.Tech(Information Technology,
+            3<sup>rd</sup>Year) from Institute of Engineering & Technology, Ayodhya.
+            <br>I specialized in <strong> designing</strong> and developing functional, aeshthetically pleasing
+            applications with unwavering passion. I also interested
+            in solve real-life problems. My
+            work is characterized by a keen focus on user experience and a commitment to
+            delivering high-quality solutions.
+            <!-- <img class="h-10 mt-4" src="menu.png" alt=""> -->
+        </div>
+    </section>
+
+    <!-- skills -->
+    <section class="bg-emerald-300 hover:bg-cover flex flex-row mt-0 max-h-max pb-14">
+
+        <div class="rounded-3xl basis-1/2 pt-14 ps-14  relative">
+            <div
+                class="flex flex-row font-bold text-2xl hover:underline hover:uppercase hover:text-fuchsia-800 cursor-text w-10 h-14 font">
+                <img src="skill.png" class="animate-pulse h-7 w-8 mr-2" alt="">
+                <span>Skills</span>
+            </div><br>
+            <div class="hover:shadow-black hover:animate-pulse basis-1/2 ps-14 pt-1">
+                <div class="pt-5 flex flex-row outer shadow-slate-800 shadow-xl h-16 w-9/12  p-1.5 rounded-xl">
+                    <div class="flex-none"><img class="h-8 w-8 rounded-full shadow-xl shadow-black" src="jav.jpeg" alt=""></div>
+                    <div class="basis-2/6 ps-2 font-semibold  font-blue">DSA with JAVA</div>
+                    <div
+                        class="basis-4/6  items-center justify-center inner h-5 w-8 rounded-full shadow-inner shadow-orange-500">
+                        <div class="bg-black w-48 h-5 text-white rounded-s-xl rounded-e-xl"><div class=" font-semibold rounded-full mx-11">65%</div></div>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="hover:shadow-black hover:animate-pulse basis-1/2 ps-14 pt-1">
+                <div class="pt-5 flex flex-row outer shadow-slate-800 shadow-xl h-16 w-9/12  p-1.5 rounded-xl">
+                    <div class="basis-1/6"><img class="h-9 w-8 rounded-ee-2xl rounded-es-2xl shadow-xl shadow-black" src="html.jpeg" alt=""></div>
+                    <div class="basis-1/6 font-semibold me-3 font-blue">HTML</div>
+                    <div
+                        class="basis-4/6  items-center justify-center inner h-5 w-40 rounded-full shadow-inner shadow-orange-500">
+                        <div class="bg-black w-52 h-5 rounded-xl text-white"><div class="font-semibold rounded-full mx-11">70%</div></div>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="hover:shadow-black hover:animate-pulse basis-1/2 ps-14 pt-1">
+                <div class="pt-5 flex flex-row outer shadow-slate-800 shadow-xl h-16 w-9/12  p-1.5 rounded-xl">
+                    <div class="basis-1/6"><img class="h-8 w-8 rounded-ee-2xl rounded-es-2xl shadow-xl shadow-black" src="css.jpeg" alt=""></div>
+                    <div class="basis-1/6 font-semibold me-3 font-blue">CSS</div>
+                    <div
+                        class="basis-4/6  items-center justify-center inner h-5 w-40 rounded-full shadow-inner shadow-orange-500">
+                        <div class="bg-black w-48 h-5 rounded-xl text-white"><div class="font-semibold rounded-full mx-11">65%</div></div>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="hover:shadow-black hover:animate-pulse basis-1/2 ps-14 pt-1">
+                <div class="pt-5 flex flex-row outer shadow-slate-800 shadow-xl h-16 w-9/12  p-1.5 rounded-xl">
+                    <div class="basis-1/6"><img class="h-8 w-8 rounded-full shadow-xl shadow-black" src="js.jpeg" alt=""></div>
+                    <div class="basis-1/6 font-semibold me-3 font-blue">JS</div>
+                    <div
+                        class="basis-4/6 items-center justify-center inner h-5 w-40 rounded-full shadow-inner shadow-orange-500">
+                        <div class="bg-black w-48 h-5 rounded-xl text-white"><div class="font-semibold rounded-full mx-11">60%</div></div>
+                    </div>
+                </div>
+            </div><br>
+            <div class="hover:shadow-black hover:animate-pulse basis-1/2 ps-14 pt-1">
+                <div class="pt-5 flex flex-row outer shadow-slate-800 shadow-xl h-16 w-9/12  p-1.5 rounded-xl">
+                    <div class="basis-1/6 "><img class="h-8 w-11 rounded-full shadow-xl shadow-black " src="mysql-logo-png-transparent.png" alt=""></div>
+                    <div class="basis-1/6 font-semibold me-3 font-blue">MY-SQL</div>
+                    <div
+                        class="basis-4/6  items-center justify-center inner h-5 w-40 rounded-full shadow-inner shadow-orange-500">
+                        <div class="bg-black w-44 h-5 rounded-2xl text-white"><div class="font-semibold rounded-full mx-11">55%</div></div>
+                    </div>
+                </div>
+            </div><br>
+
+
+        </div>
+        <div class="basis-1/2 ps-14 pt-14 relative">
+            <div class="font-bold hover:underline hover:uppercase hover:text-fuchsia-800 text-2xl w-10 h-14 ">Frameworks
+            </div><br>
+            <div class="ms-14">
+                <div
+                    class="hover:shadow-black hover:animate-pulse pt-5 flex flex-row outer shadow-slate-800 shadow-xl h-16 w-9/12  p-1.5 rounded-xl">
+                    <div class="basis-1/6"><img class="h-8 w-8 rounded-full shadow-xl shadow-black" src="tai.jpeg" alt=""></div>
+                    <div class="basis-1/6 font-semibold me-3 font-blue">TAILWIND</div>
+                    <div
+                        class="basis-4/6  items-center justify-center inner h-5 w-40 rounded-full shadow-inner shadow-orange-500">
+                        <div class="bg-black w-52 h-5 rounded-xl text-white"><div class="font-semibold rounded-full mx-11">80%</div></div>
+                    </div>
+                </div><br>
+                <div
+                    class="hover:shadow-black hover:animate-pulse pt-5 flex flex-row outer shadow-slate-800 shadow-xl h-16 w-9/12  p-1.5 rounded-xl">
+                    <div class="basis-1/6"><img class="h-8 w-8 rounded-full shadow-xl shadow-black" src="boo.jpeg" alt=""></div>
+                    <div class="basis-1/6 font-semibold me-3 font-blue">BOOTSTRAP</div>
+                    <div
+                        class="basis-4/6  items-center justify-center inner h-5 w-40 rounded-full shadow-inner shadow-orange-500">
+                        <div class="bg-black w-52 h-5 rounded-xl text-white"><div class="font-semibold rounded-full mx-11">75%</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- projects -->
+    <section class="bg-blend-lighten p-14 bg-cover h-max">
+        <div class="flex flex-row">
+            <img src="project.png" class="mr-2 h-7 w-8 animate-pulse" alt="">
+            <strong
+                class="font-serif font-bold text-2xl hover:underline hover:uppercase hover:text-fuchsia-800">Projects</strong>
+
+        </div>
+        <div class=" flex flex-col p-11">
+            <div class="underline font-semibold text-xl">Spotify Clone</div>
+            <div class=" mt-4">
+                <div class="pt-5  font-serif flex flex-row gap-32">
+                    <div
+                        class="hover:shadow-purple-500 hover:shadow-2xl ps-5 basis-1/2 text pt-3 shadow-xl shadow-purple-400 rounded-xl">
+                        <div>It is a music web application similar to spotify.
+                            It has basic functionalities like playback controls
+                            (play, pause & stop).
+                            This project were build during intership in "Bharat Intern". It
+                            I also upload this project on a web hosting platform named as "Netlify".
+                            Here is the link: <a href="" class="text-blue-500">Spotify Clone</a><br>
+                            <br>Technologies used:-
+                            <ul class="text-sky-800 font-mono text-lg">
+                                <li>HTML 5</li>
+                                <li>CSS 3</li>
+                                <li>JAVASCRIPT</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="basis-1/2">
+                        <img src="opop.png" class=" shadow-gray-500 rounded-lg shadow-xl" alt="">
+                    </div>
+                </div>
+            </div><br>
+            <div class="mt-8 underline font-semibold text-xl">E-Commerce Website</div>
+            <div class="mt-4">
+                <div class=" pt-5  font-serif flex flex-row gap-32">
+                    <div
+                        class=" ps-5 basis-1/2 text pt-3 hover:shadow-purple-500 hover:shadow-2xl shadow-xl shadow-purple-400 rounded-xl">
+                        <div><strong>Groco</strong> is an E-Commerce website which is responsive. A user-friendly
+                            interface allows users to browse by category (Fruits, Vegetables, Dairy porducts and Bakery
+                            porducts).
+                            <br><br>
+                            Technologies used:-
+                            <ul class="text-sky-800 font-mono text-lg">
+                                <li>HTML 5</li>
+                                <li>CSS 3</li>
+                                <li>JAVASCRIPT</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" basis-1/2">
+                        <img class="shadow-xl shadow-gray-500 hover:shadow-2xl hover:shadow-gray-800 transition focus:s focus:rounded-full rounded-lg"
+                            src="Screenshot 2024-05-28 094439.png" alt="">
+                    </div>
+                </div>
+            </div><br>
+        </div>
+        </div>
+    </section>
+    <div class="bg-slate-200">
+        <footer class="absolute font-serif  w-full">
+            <div class="pt-1">
+                <div class="hover:uppercase text-2xl font-bold ms-32 mt-9">Contact Me:-
+                </div><br>
+                <div class="mt-2 ms-96 gap-72 flex flex-row">
+                    <div class=" flex flex-col">
+                        <a href="kaustubhrai9125@gmail.com"><img class="rounded-xl hover:shadow-lg hover:shadow-black h-10 w-10" src="mail.png" alt=""></a><br>
+                        <a href="https://www.linkedin.com/in/kaustubh-dev-rai/"><img class="rounded-xl hover:shadow-lg hover:shadow-black  h-10 w-10"
+                                src="chotalink.png" alt=""></a><br>
+                        <a href="https://github.com/Kaustubhraidev"><img class="hover:shadow-lg hover:shadow-black rounded-xl h-9 w-10" src="chotagit.png"
+                                alt=""></a><br>
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="flex text-lg flex-row hover:ms-2 hover:underline">
+                            <img class="hover:underline h-7 w-7" src="phone-call.png" alt="">+91-9125218253<br>
+                        </div><br>
+                        <div class="flex flex-row text-lg">
+                            <img class="h-8 w-8" src="location-pin.png" alt="">Gorakhpur, Uttar Pradesh
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <img src="wave.svg" alt=""></div>
+</body>
+
+</html>
